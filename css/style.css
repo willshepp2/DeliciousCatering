@@ -510,6 +510,9 @@ footer {
 }
 footer p {
 	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+margin-top: 20px;
+	
 }
 .social-nav {
 	
@@ -600,10 +603,25 @@ blockquote.right {
 	}
 
 /*Wordpress editor styles end*/
+
+@media all and (min-width: 501px) {
+    .page-header {background-image:url(../img/DBanner1.jpg);}
+
+    .page-break {background-image:url(../img/CrabBanner.jpg);}
+
+}
+@media all and (max-width: 500px) {
+    .page-header {background-image:url(../img/MobileBanner1.jpg);}
+
+    .page-break {background-image:url(../img/MobileBanner2.jpg);}
+
+}
 @media screen and (min-width: 992px) {
 .menu-wrapper .page-body {
 	width: 850px;
 }
+
+
 }
 @media screen and (min-width: 1200px) {
 .menu-wrapper .page-body {
@@ -764,6 +782,7 @@ text-decoration:none;
 
 
 @media screen and (max-width: 440px) {
+
 
 .chuck .menu-box h5 {
     line-height: 20px;
